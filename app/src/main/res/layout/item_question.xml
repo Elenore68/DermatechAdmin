@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:textSize="10sp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"
+            android:background="@drawable/type_shape"
+            android:text="Fungi Athlete Foot" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+           android:layout_marginRight="16dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="16dp"
+
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:maxLines="3"
+                android:text="TextViewTextVisdfsdfsdfsdfsdewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextView"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/questionType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"
+                android:layout_marginTop="10dp"
+                android:text="1dsfsdfsdfsf"
+                android:drawablePadding="5dp"
+                android:drawableTint="#7F7F7F"
+                android:drawableLeft="@drawable/question_type" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

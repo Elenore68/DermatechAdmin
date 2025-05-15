@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DermaTech"
+        tools:targetApi="31">
+        <activity
+            android:name=".medical_consultant.PatientHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.DiagnosisDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.MedicalConsultantDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.DrugDetailsForPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.ChatingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.ArticleDetailsForPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.DiagnosisResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.PartOfBodyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".admin.questions.QuestionDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.questions.AddQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.drugs.DrugDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.drugs.AddDrugActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.tips.TipDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.tips.AddTipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.articles.ArticleDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.articles.AddArticlesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.MedicalConsultantAcceptOrRejectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.HomeAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".medical_consultant.HomeMedicalConsultantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.HomePatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterAsMedicalConsultantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterAsPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectUserTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
